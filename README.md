@@ -29,9 +29,10 @@ pip3 install pycuda --user
 ```
 ## Run the code
 1. Connect jetson nano to your device
-2. Download and run playground.py
-3. Test your camera
-   - Download the file camera_test.ipynb
+2. Download the folder "yolov5"
+3. move it to the folder "tensorrtx" (after installing tensorrtx library)
+4. Test your camera
+   - Find the file "camera_test.ipynb" in the folder "yolov5"
    - Run the file in Jupyterlab by the following instruction
    ![2f59e540-6085-4b04-8d45-27f5b32cccee](https://github.com/user-attachments/assets/a6595bc4-4bcc-43bd-90bf-2ea03c369e32)
    Run from here
@@ -43,9 +44,11 @@ pip3 install pycuda --user
    ![95037026-23a3-44bd-9c31-fa0065a38cfa](https://github.com/user-attachments/assets/aa8bc3a1-79b7-4fb4-9767-39c763daecb1)
    - Next, try jumping and squatting to test whether the camera can detect your motion. The text at the upper right corner will show your state (none is standing, jump is jumping and knee is squatting)
    - If the camera can detect your motion correctly, your camera is ready for the game.
-4. Run Chrome Dino in GOOGLE CHROME
+5. Run the file "playground.py" in jetson nano
+6. Run Chrome Dino in GOOGLE CHROME
    ```
    chrome://dino/
    ```
-   
+7. press space bar to start the game
+
 Enjoy the game!
